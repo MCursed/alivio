@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.woff2) format('woff2');
+        src: url(../fonts/Lato-Regular.woff) format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Medium.woff2) format('woff2');
+        src: url(../fonts/Lato-Medium.woff) format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Semibold.woff2) format('woff2');
+        src: url(../fonts/Lato-Semibold.woff) format('woff');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Georgia';
+    src: url(../fonts/Georgia.woff2) format('woff2');
+        src: url(../fonts/Georgia.woff) format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Georgia';
+    src: url(../fonts/Georgia-Bold.woff2) format('woff2');
+        src: url(../fonts/Georgia-Bold.woff) format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    /*min-width: 1600px;*/
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* Grid */
+
+.container {
+    max-width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1399px){
+    .container {
+        width: 100%;
+    }
+}
+
+.container-wide {
+    width: 1536px;
+}
+
+@media (max-width: 1535px){
+    .container-wide {
+        width: 100%;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}

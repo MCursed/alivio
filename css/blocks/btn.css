@@ -1,0 +1,34 @@
+.btn, a.btn {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01996D;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn:hover, a.btn:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+.btn-big, a.btn-big {
+    min-height: 65px;
+}
+
+@media (max-width: 991px) {
+    .btn, a.btn {
+        min-height: 41px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btn-big, a.btn-big {
+        min-height: 55px;
+    }
+}
